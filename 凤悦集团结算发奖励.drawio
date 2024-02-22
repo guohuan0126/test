@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T07:33:04.258Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="n2MQDO6uP2iDjcGmNPg_" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T07:50:17.188Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="aEi0w2Y7rj0S_PDaA6tF" version="23.1.5" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="977" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0UQqs-vpr0hep9xXlx3u-1" value="凤悦集团结算发奖励" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="20" width="850" height="860" as="geometry" />
+          <mxGeometry x="40" y="20" width="1060" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="0UQqs-vpr0hep9xXlx3u-5" value="业务端" style="swimlane;startSize=20;html=1;" vertex="1" parent="0UQqs-vpr0hep9xXlx3u-1">
-          <mxGeometry y="20" width="120" height="840" as="geometry" />
+          <mxGeometry y="20" width="120" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="0UQqs-vpr0hep9xXlx3u-8" value="业务订单结算" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="0UQqs-vpr0hep9xXlx3u-5">
           <mxGeometry x="22.5" y="40" width="75" height="40" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry x="15" y="490" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0UQqs-vpr0hep9xXlx3u-2" value="结算适配器" style="swimlane;startSize=20;html=1;" vertex="1" parent="0UQqs-vpr0hep9xXlx3u-1">
-          <mxGeometry x="120" y="20" width="430" height="840" as="geometry" />
+          <mxGeometry x="120" y="20" width="430" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="0UQqs-vpr0hep9xXlx3u-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0UQqs-vpr0hep9xXlx3u-2" source="0UQqs-vpr0hep9xXlx3u-9" target="0UQqs-vpr0hep9xXlx3u-11">
           <mxGeometry relative="1" as="geometry" />
@@ -66,23 +66,41 @@
         <mxCell id="0UQqs-vpr0hep9xXlx3u-35" value="是否为首单" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="0UQqs-vpr0hep9xXlx3u-2">
           <mxGeometry x="75" y="590" width="100" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="0UQqs-vpr0hep9xXlx3u-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0UQqs-vpr0hep9xXlx3u-2" source="0UQqs-vpr0hep9xXlx3u-36" target="0UQqs-vpr0hep9xXlx3u-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0UQqs-vpr0hep9xXlx3u-36" value="服务费=0" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="0UQqs-vpr0hep9xXlx3u-2">
           <mxGeometry x="10" y="680" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0UQqs-vpr0hep9xXlx3u-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0UQqs-vpr0hep9xXlx3u-2" source="0UQqs-vpr0hep9xXlx3u-44" target="0UQqs-vpr0hep9xXlx3u-68">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0UQqs-vpr0hep9xXlx3u-44" value="继续计算其他计费规则" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="0UQqs-vpr0hep9xXlx3u-2">
           <mxGeometry x="155" y="680" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="0UQqs-vpr0hep9xXlx3u-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0UQqs-vpr0hep9xXlx3u-2" source="0UQqs-vpr0hep9xXlx3u-46" target="0UQqs-vpr0hep9xXlx3u-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0UQqs-vpr0hep9xXlx3u-46" value="服务费=0" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="0UQqs-vpr0hep9xXlx3u-2">
           <mxGeometry x="275" y="490" width="90" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="0UQqs-vpr0hep9xXlx3u-68" value="发送结算" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="0UQqs-vpr0hep9xXlx3u-2">
+          <mxGeometry x="260" y="780" width="120" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="0UQqs-vpr0hep9xXlx3u-3" value="会员系统" style="swimlane;startSize=20;html=1;" vertex="1" parent="0UQqs-vpr0hep9xXlx3u-1">
-          <mxGeometry x="550" y="20" width="180" height="840" as="geometry" />
+          <mxGeometry x="550" y="20" width="180" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="0UQqs-vpr0hep9xXlx3u-13" value="查询会员类型" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="0UQqs-vpr0hep9xXlx3u-3">
           <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0UQqs-vpr0hep9xXlx3u-4" value="奖励系统" style="swimlane;startSize=20;html=1;" vertex="1" parent="0UQqs-vpr0hep9xXlx3u-1">
-          <mxGeometry x="730" y="20" width="120" height="840" as="geometry" />
+          <mxGeometry x="730" y="20" width="160" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="0UQqs-vpr0hep9xXlx3u-70" value="结算api" style="swimlane;startSize=20;html=1;" vertex="1" parent="0UQqs-vpr0hep9xXlx3u-1">
+          <mxGeometry x="890" y="20" width="170" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="0UQqs-vpr0hep9xXlx3u-75" value="入结算快照" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="0UQqs-vpr0hep9xXlx3u-70">
+          <mxGeometry x="25" y="780" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0UQqs-vpr0hep9xXlx3u-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0UQqs-vpr0hep9xXlx3u-1" source="0UQqs-vpr0hep9xXlx3u-8" target="0UQqs-vpr0hep9xXlx3u-9">
           <mxGeometry relative="1" as="geometry" />
@@ -100,6 +118,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="650" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0UQqs-vpr0hep9xXlx3u-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0UQqs-vpr0hep9xXlx3u-1" source="0UQqs-vpr0hep9xXlx3u-68" target="0UQqs-vpr0hep9xXlx3u-75">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

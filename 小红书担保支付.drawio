@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T09:23:33.286Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="giQWTZPj_WVDuipjPAIT" version="24.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-17T09:34:42.959Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="GQXxHSRfayWas-RQNlMS" version="24.7.0" type="github">
   <diagram name="第 1 页" id="IxdUAaIlxtq6js6nrn1g">
     <mxGraphModel dx="1049" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,32 +12,6 @@
         </mxCell>
         <mxCell id="r6vLyPiI_a7MKD_B-JSS-15" value="下单" style="rounded=1;whiteSpace=wrap;html=1;" parent="r6vLyPiI_a7MKD_B-JSS-10" vertex="1">
           <mxGeometry x="25" y="40" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="r6vLyPiI_a7MKD_B-JSS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="r6vLyPiI_a7MKD_B-JSS-10" target="r6vLyPiI_a7MKD_B-JSS-27" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="150" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="r6vLyPiI_a7MKD_B-JSS-27" value="创建支付单" style="rounded=1;whiteSpace=wrap;html=1;" parent="r6vLyPiI_a7MKD_B-JSS-10" vertex="1">
-          <mxGeometry x="25" y="180" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="r6vLyPiI_a7MKD_B-JSS-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="r6vLyPiI_a7MKD_B-JSS-10" source="r6vLyPiI_a7MKD_B-JSS-41" target="r6vLyPiI_a7MKD_B-JSS-53" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="r6vLyPiI_a7MKD_B-JSS-41" value="路由完成" style="rounded=1;whiteSpace=wrap;html=1;" parent="r6vLyPiI_a7MKD_B-JSS-10" vertex="1">
-          <mxGeometry x="25" y="390" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="r6vLyPiI_a7MKD_B-JSS-53" value="创建渠道订单" style="rounded=1;whiteSpace=wrap;html=1;" parent="r6vLyPiI_a7MKD_B-JSS-10" vertex="1">
-          <mxGeometry x="25" y="460" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="r6vLyPiI_a7MKD_B-JSS-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="r6vLyPiI_a7MKD_B-JSS-10" source="r6vLyPiI_a7MKD_B-JSS-65" target="r6vLyPiI_a7MKD_B-JSS-67" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="r6vLyPiI_a7MKD_B-JSS-65" value="获取支付token" style="rounded=1;whiteSpace=wrap;html=1;" parent="r6vLyPiI_a7MKD_B-JSS-10" vertex="1">
-          <mxGeometry x="25" y="534.5" width="70" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="r6vLyPiI_a7MKD_B-JSS-67" value="拉起收银台" style="rounded=1;whiteSpace=wrap;html=1;" parent="r6vLyPiI_a7MKD_B-JSS-10" vertex="1">
-          <mxGeometry x="25" y="600" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r6vLyPiI_a7MKD_B-JSS-91" value="退款" style="rounded=1;whiteSpace=wrap;html=1;" parent="r6vLyPiI_a7MKD_B-JSS-10" vertex="1">
           <mxGeometry x="25" y="1120" width="70" height="40" as="geometry" />
